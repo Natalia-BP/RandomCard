@@ -1,1 +1,44 @@
+/* No se borra */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* Nuestro CSS */
+
+/* General */
+
+body {
+  background-color: green;
+  padding: 50px;
+  text-align: justify;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 60px;
+}
+
+#card {
+  margin: auto;
+  border: 2px solid black;
+  padding: 1px;
+  background-color: white;
+  max-width: 15rem;
+  max-height: 28rem;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
