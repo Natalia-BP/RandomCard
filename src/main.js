@@ -4,7 +4,7 @@ import "./style.css";
 //
 var numCentro = document.getElementsByClassName("number");
 var icono = document.getElementsByClassName("icon");
-// La funcion se ejecuta cada vez que se "refresca" la página web.
+
 window.onload = function() {
   // Numeros
   //Se crean arrays con valores strings para seleccionarlos previamente.
@@ -36,5 +36,10 @@ window.onload = function() {
   //   icono[1].innerHTML = iconRandom[rdm2];
   for (let i = 0; i < icono.length; i++) {
     icono[i].innerHTML = iconRandom[rdm2];
+  }
+  if (iconRandom[rdm2] == "\u2665" || iconRandom[rdm2 == "\u2666"]) {
+    document.querySelector(".upper").style.color = "red";
+    document.querySelector(".lower").style.color = "red";
+    document.querySelector(".number").style.color = "red";
   }
 };
